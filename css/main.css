@@ -2,7 +2,7 @@ body {
   font: 15px/1.5 Helvetica, Arial, Sans-Serif;
     margin: 60px auto;
     width: 70%;
-    background-color: #375452;
+    background-color: #E8E7E5;
 }
 /* Global */
 .container{
@@ -22,7 +22,7 @@ header{
 }
 
 header a{
-  color:#e8e7e5;
+  color:#DEAC5F;
   text-decoration:none;
   text-transform: uppercase;
   font-size:16px;
