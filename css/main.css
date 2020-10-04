@@ -2,7 +2,7 @@ body {
   font: 15px/1.5 Helvetica, Arial, Sans-Serif;
     margin: 60px auto;
     width: 70%;
-    background-color: #f3f3f3;
+    background-color: #375452;
 }
 /* Global */
 .container{
@@ -14,8 +14,8 @@ body {
 
 /* Header **/
 header{
-  background: #35424a
-  color:#e8491d;
+  background: #375452
+  color:#DEAC5F;
   padding-top: 30px;
   min-height:70px;
   border-bottom: #e8491d 3px solid;
