@@ -1,82 +1,165 @@
-body {
-  font: 15px/1.5 Helvetica, Arial, Sans-Serif;
-    margin: 60px auto;
-    width: 70%;
-    background-color: #E8E7E5;
-}
-/* Global */
-.container{
-  width: 80%;
-  margin:auto;
-  overflow-x: hid
-  
-}
-
-/* Header **/
-header{
-  background: #e8e7e5
-  color:#DEAC5F;
-  padding-top: 30px;
-  min-height:70px;
-  border-bottom: #deac5f 3px solid;
-}
-
-header a{
-  color:#DEAC5F;
-  text-decoration:none;
-  text-transform: uppercase;
-  font-size:16px;
-}
-
-header ul{
-  margin:0
-  padding:0
-}
-
-header li {
-  float: left'
-  display:inline;
-  padding: 0 20px 0 20px;
-  
-}
-
-header #
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
+// No Underline
 a {
-    text-decoration: none;
-    color: #999;
+  border-bottom: none !important;
 }
-a:hover {
-    text-decoration: underline;
+
+//Glamour Font
+@font-face {   
+  font-family: 'Glamour';   
+  src: url(https://static1.squarespace.com/static/5e8528d2aac65521a54c9471/t/5e852f2d1a308c6c3317399b/1585786671201/GlamourAbsolute_Regular.otf); 
 }
+
 h1 {
-    font-size: 3em;
-    font-family: Helvetica, Arial, Sans-Serif;
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  font-family: 'Glamour';
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+//Blog Post Title
+h1.BlogItem-title {
+  font-family: 'Glamour' !important;
+  letter-spacing: .04em;
 }
 
-ul.posts li {
-    list-style: none;
+.site-title {
+  font-family: 'Glamour' !important;
 }
+
+//Script Font
+@font-face {   
+  font-family: 'Silver-South';   
+  src: url(https://static1.squarespace.com/static/5e8528d2aac65521a54c9471/t/5e90876a7359a76eb3bc886b/1586530155886/Silver+South+Script.ttf); 
+}
+
+h4 {
+  font-family: 'Silver-South';
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.2em;
+  font-weight: normal;
+}
+
+//Spacer 
+.spacer-block {
+     padding-top: 0;
+     padding-bottom: 0 !important;
+ }
+
+//Featured Posts
+.sqs-block-summary-v2 {
+.summary-title,
+.summary-heading {
+font-family: 'Glamour';
+font-weight: 400;
+font-size: 18px !important;
+letter-spacing: .08em;
+color: #333333;
+ } }
+
+//Contact Form
+.form-wrapper .field-list .field .field-element {
+  padding: 15px !important;
+  border: 0px solid #fff !important;  
+  background: #fff !important; 
+}
+
+//Contact Form Button
+.button.sqs-system-button.sqs-editable-button {
+  font-size: 11px;
+  padding: 20px 40px;
+}
+
+//Button Width
+.sqs-block-button .sqs-block-button-element--medium {
+  width: 50%;
+  padding: 20px;
+}
+
+//Alternating Bsckground
+.collection-type-index #latest-posts, #instagram-contact{
+  background-color: #fff;
+}
+
+//Mobile Fonts
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 55px;
+    line-height: 1.03em;
+    letter-spacing: .05em;
+    hyphens: none;
+  }
+  h2 {
+    font-size: 16px;
+    hyphens: none;
+  }
+}
+
+#latest-posts {
+  @media screen and (max-width: 640px) {
+    .summary-item-list {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .summary-item {
+      width: 100%!important;
+      margin-bottom: 50px;
+    }
+    .summary-item:nth-child(n+4) {
+      display: none;
+    }
+    .summary-carousel-pager {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 641px) {
+    .button-block {
+      display: none;
+    }}}
+
+@media screen and (max-width: 640px) {
+  #block-yui_3_17_2_1_1585803749367_9789 {
+width: 50% !important;
+margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #categories {
+width: 60% !important;
+margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .Footer h3 {
+    text-align: center !important;
+  }
+  .Footer p {
+    text-align: center !important;
+  }
+}
+
+#coffee-community {
+.sqs-block-image {
+width: 70%;
+margin: 0 auto;
+}
+}
+
+#coffee-community h2 {
+  color: #fff;
+}
+
+#collection-5f74ef9f3cc96a72abb7b90e{
+header, footer {
+  display: none!important;
+  }}
+#collection-5f74f1657c205450eb741edd{
+header, footer {
+  display: none!important;
+  }}
