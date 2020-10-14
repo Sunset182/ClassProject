@@ -33,7 +33,7 @@ body, html {
   position: absolute;
   left: 0;
   top: 50%;
-  width: 100%;
+  width: 80%;
   text-align: center;
   color: #000;
 }
@@ -41,7 +41,7 @@ body, html {
 .caption span.border {
   background-color: #111;
   color: #fff;
-  padding: 18px;
+  padding: 50px;
   font-size: 25px;
   letter-spacing: 10px;
 }
