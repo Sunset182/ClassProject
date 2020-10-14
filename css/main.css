@@ -5,7 +5,7 @@ body, html {
   color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.sail, .coffee, .social-cover-a {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -14,17 +14,17 @@ body, html {
   background-size: cover;
 
 }
-.bgimg-1 {
+.sail {
   background-image: url("sail.jpg");
   min-height: 100%;
 }
 
-.bgimg-2 {
+.coffee {
   background-image: url("coffee.jpg");
   min-height: 400px;
 }
 
-.bgimg-3 {
+.social-cover-a{
   background-image: url("social-cover-a.png");
   min-height: 400px;
 }
