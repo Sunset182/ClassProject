@@ -1,6 +1,6 @@
 body, html {
   height: 100%;
-  margin: 10px;
+  margin: 10%;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
@@ -16,46 +16,21 @@ color: #E8E7E5; background-color: #777;
 a: active {
 color: #DEAC5F; background-color: #777;
 }
-
-.sail, .coffee, .social-cover-a {
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+#wrapper {
+ width: 960px;
 }
-.sail {
-  background-image: url("sail.jpg");
-  min-height: 100%;
+main {
+ float: left;
+ width: 650px;
+ margin: 0 20px;
 }
-
-.coffee {
-  background-image: url("coffee.jpg");
-  min-height: 400px;
+aside {
+ float: left;
+ width: 250px;
+ margin: 0 20px 0 0;
 }
-
-.social-cover-a{
-  background-image: <img src="social-cover-a.png" alt="">;
-  min-height: 400px;
-}
-
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 80%;
-  text-align: center;
-  color: #000;
-}
-
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 50px;
-  font-size: 25px;
-  letter-spacing: 10px;
+footer {
+ clear: left;
 }
 
 h3 {
