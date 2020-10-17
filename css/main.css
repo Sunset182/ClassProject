@@ -16,7 +16,7 @@ color: #E8E7E5; background-color: #777;
 a: active {
 color: #DEAC5F; background-color: #777;
 
-parallax {
+. parallax {
   background: url ('img/social-cover-a.png')no-repeat center;
   background-size: cover;
   background-attachment: fixed;
