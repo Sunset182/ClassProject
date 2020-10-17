@@ -4,6 +4,18 @@ body, html {
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
+a: link {
+color: #777;
+}
+a: visited {
+color: #DEAC5F;
+}
+a: focused {
+color: #E8E7E5; background-color: #fff;
+}
+a: active {
+color: #DEAC5F; background-color: #fff;
+}
 
 .sail, .coffee, .social-cover-a {
   position: relative;
