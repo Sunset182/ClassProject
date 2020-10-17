@@ -11,10 +11,10 @@ a: visited {
 color: #DEAC5F;
 }
 a: focused {
-color: #E8E7E5; background-color: #fff;
+color: #E8E7E5; background-color: #777;
 }
 a: active {
-color: #DEAC5F; background-color: #fff;
+color: #DEAC5F; background-color: #777;
 }
 
 .sail, .coffee, .social-cover-a {
