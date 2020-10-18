@@ -49,7 +49,7 @@ p. float {
 /* nav styles */
 nav, footer {
   font-family: "Lato"; sans-serf;
-  background-color: #375452;
+  background-color: #fff;
 }
 nav ul li a:link, nav ul li a:visited {
   color: #DEAC5F;
