@@ -95,8 +95,8 @@ p.more {
 /* Ingredients section */
 #ingredients h2{
   border-top: #555 1px solid;
-  border-left: #555 3px solid;
-  border-right: #555 3px solid;
+  border-left: #555 1px solid;
+  border-right: #555 1px solid;
   padding-left: 1em;
 }
 
@@ -105,14 +105,14 @@ p.more {
 }
 
 #ingredients th{
-  font-size: 21px;
-  height: 25px;
+  font-size: 15px;
+  height: 10px;
 }
 
 #ingredients td{
-  font-size: 18px;
+  font-size: 10px;
   text-align: center;
-  padding: 5px;
+  padding: 1px;
 }
 #ingredients table, th, td{
   border: #555 2px solid;
