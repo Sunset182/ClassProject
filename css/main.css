@@ -14,7 +14,7 @@ body, html {
 }
 
 /* link styles */
-a:link, a:visited { color: #f9f9f9; }
+a:link, a:visited { color: #000; }
 a:focus, a:hover, a:active { color: #E8E7E5;  border-bottom: 1px dotted;}
 
 a {
