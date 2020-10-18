@@ -14,8 +14,8 @@ body, html {
 }
 
 /* link styles */
-a:link, a:visited { color: #DC6903; border-bottom: 1px dotted; }
-a:focus, a:hover, a:active { color: #E8E7E5; }
+a:link, a:visited { color: #f9f9f9; }
+a:focus, a:hover, a:active { color: #E8E7E5;  border-bottom: 1px dotted;}
 
 a {
   text-decoration: none;
