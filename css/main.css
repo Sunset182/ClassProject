@@ -14,22 +14,21 @@ body, html {
 }
 
 /* link styles */
-a:link, a:visited { color: #DC6903; }
-a:focus, a:hover, a:active { color: #F9AB33; }
+a:link, a:visited { color: #DC6903; border-bottom: 1px dotted; }
+a:focus, a:hover, a:active { color: #E8E7E5; }
 
 a {
   text-decoration: none;
-  border-bottom: 1px dotted;
   padding-bottom: .2em;
 }
 
 
 /* header styles */
 header {
-  color: white;
+  color: #white;
   background:  url(img/SFB-Horizontal-Gold.jpg) no-repeat left left;
   background-size: left; 
-  text-align: right;
+  text-align: left;
   height: 15em;
 }
 header p {
@@ -65,7 +64,7 @@ nav ul li {
 /* main "products" styles */
 main {
   font-family: 'Lato', sans-serif;
-  background-color: white;
+  background-color: #fff;
   line-height: 1.8em;
   color: #555;
   padding: 1em;
