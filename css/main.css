@@ -105,12 +105,12 @@ p.more {
 }
 
 #ingredients th{
-  font-size: 15px;
+  font-size: 18px;
   height: 10px;
 }
 
 #ingredients td{
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   padding: 1px;
 }
