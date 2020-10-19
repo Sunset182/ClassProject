@@ -1,152 +1,155 @@
-@charset "UTF-8";
-html {
-  box-sizing: border-box;
-}
-* {
-  box-sizing: inherit;
+body {
+  font: 15px/1.5, "Lato"; sans-serif;
+  line-hieght:1.5;
+  margin: 60px auto;
+  width: 70%;
+  background-color: #ffffff;
 }
 
-body, html {
-  height: 100%;
-  margin: 10px;
-  font: 400 15px/1.8 "Lato", sans-serif;
+.container{
+  width: 80%
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Global */
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  background: #f9f9f9
+  font-size: 24px;
+  padding: 25px
+  overflow-x: hid  
+}
+
+ul{
+ margin:0;
+ padding:0;
+}
+
+.button_1{
+  height: 38px;
+  background: #DEAC5F;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:#000
+}
+
+.parallax {
+  background: url ('img/social-cover-a.png')no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+/* Header **/
+header{
+  background: #fff
+  color:#000;
+  padding-top: 30px;
+  min-height:70px;
+  border-bottom: #DEAC5F 3px solid;
+}
+
+header a{
+  color:#000;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li {
+  float: left;
+  display:inline;
+  padding: 0 20px 0 20px;
+  
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  marging:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+.highlight, header .current a{
+  color:#DEAC5F;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:DEAC5F;
+  font-weight: bold;
+  text-decoration: dots;
+}
+
+
+/*Top Section*/
+#topsection{
+  min-height: 400px;
+  background-color: #E8E7E5;no repeat 0 -400px
+  text-align: center;
   color: #777;
 }
-
-/* link styles */
-a:link, a:visited { color: #000; }
-a:focus, a:hover, a:active { color: #E8E7E5;  border-bottom: 1px dotted;}
-
-a {
-  text-decoration: none;
-  padding-bottom: .2em;
+#showcase h1{
+  margin-top: 100px
+  font-size:55px;
+  margin-bottom:10px
 }
 
+#showcase p{
+  font-size: 20px;
+}
 
-/* header styles */
-header {
-  color: #000;
-  background:  url(img/SFB-Horizontal-Gold.jpg) no-repeat left left;
-  background-size: left; 
-  text-align: left;
-  height: 15em;
+/*newsletter*/
+#newsletter{
+  padding: 15px;
+  color:#000;
+  background:#f5f1e9;
 }
-header p {
-  font-style: "Lato"; sans-serf;
-  font-size: 1.2em;
-  margin-top: -12px;
+
+#newsletter h1{
+  float:left;
 }
-header h1 {
-  margin-top: 1.5em;
+#newsletter form{
+  float:right;
+  margin-top:15px;
 }
-p. float {
+
+#newsletter input [type="email"]{
+  padding:4px;
+  height: 25px;
+  width:250px;
+}
+
+/*Blog Boxes*/
+#blogboxes{
+  margin-top: 250px
+}
+
+#blogboxes .box{
   float: left;
-  width: 200px;
-  margin: 0px;
-  background: #e8e7e5;
-  color: #000;
-}
-/* nav styles */
-nav, footer {
-  font-family: "Lato"; sans-serf;
-  background-color: #fff;
-}
-nav ul li a:link, nav ul li a:visited {
-  color: #DEAC5F;
-}
-nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
-  color: #E8E7E5;
-}
-nav ul {
-  margin: 0;
-}
-nav ul li {
-  font-size: .8em;
-  text-transform: uppercase;
-  letter-spacing: .4em;
-}
-
-/* main "products" styles */
-main {
-  font-family: 'Lato', sans-serif;
-  background-color: #fff;
-  line-height: 1.8em;
-  color: #555;
-  padding: 1em;
-  border: double 4px #E8E7E5;
-  border-radius: 25px;
-  margin: 2.5%;
-}
-h3 {
-  text-transform: uppercase;
-  letter-spacing: .2em;
-  color: #000;
-  border-top: 1px solid;
-  border-left: 3px solid;
-  padding-left: 1em;
-  margin-top: 2.5em;
-}
-p.more {
-  font-family: 'Lato', sans-serif;
-  text-transform: uppercase; 
-  font-size: .8em;
-}
-
-/* Ingredients section */
-#ingredients h2{
-  border-top: #555 1px solid;
-  border-left: #555 1px solid;
-  border-right: #555 1px solid;
-  padding-left: 1em;
-}
-
-#ingredients table{
-  width: 70%;
-}
-
-#ingredients th{
-  font-size: 18px;
-  height: 10px;
-}
-
-#ingredients td{
-  font-size: 14px;
   text-align: center;
-  padding: 1px;
-}
-#ingredients table, th, td{
-  border: #555 2px solid;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
+  width: 30%;
+  padding:10px;
 }
 
-/* Preparation Section */
-#preperation
+#blogboxes .box img{
+  width: 90px;
+  height: auto;
 
-
-/* aside "hours" styles */
-aside {
-  background: url(img/me3.jpg) repeat-y left top;
-  background-color: #ffffff;
-  padding: 1em;
-  padding-left: 45px;
-  border-top-right-radius: 25px;
-  margin: 1em 2.5% 0 10%;
 }
-/* misc styles */
 footer {
-  color: #375452;
-  text-align: left;
-  font-size: .8em;
-  padding: 1em;
+  padding: 20px;
+  margin-top:20px 
+  color: #e8e7e5;
+  background-color: #375452;
+  text-align: center;
 }
-h2 {
-  font-family: 'Lato', sans-serif;
-}
-.day {
-  color: #E8E7E5;
-  font-family: 'Lato', sans-serif;
-  font-size: .8em;
-  text-transform: uppercase;
-}/* CSS Document */
