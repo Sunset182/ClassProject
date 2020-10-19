@@ -101,7 +101,7 @@ p.more {
 }
 
 #ingredients table{
-  width: 80%;
+  width: 70%;
 }
 
 #ingredients th{
@@ -110,7 +110,7 @@ p.more {
 }
 
 #ingredients td{
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   padding: 1px;
 }
