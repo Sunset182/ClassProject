@@ -118,6 +118,7 @@ header a:hover{
 
 #newsletter h1{
   float:left;
+  padding-left: 10px;
 }
 #newsletter form{
   float:right;
@@ -131,18 +132,19 @@ header a:hover{
 }
 
 /*Blog Boxes*/
-#blogboxes{
+#BlogBoxes{
   margin-top: 250px
+  text-align:center;
 }
 
-#blogboxes .box{
-  float: left;
+#BlogBoxes .box1, .box2, .box3{
+  float: left; center; right;
   text-align: center;
   width: 30%;
   padding:10px;
 }
 
-#blogboxes .box img{
+#BlogBoxes .box img{
   width: 90px;
   height: auto;
 }
