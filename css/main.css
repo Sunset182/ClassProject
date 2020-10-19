@@ -78,7 +78,7 @@ header #branding h1{
 header nav{
   font: 15px/1.8, "Lato"; sans-serif;
   float:right;
-  margin-top:10px;
+  margin-top:20px;
 }
 
 .highlight, .current a{
