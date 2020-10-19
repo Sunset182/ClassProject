@@ -64,7 +64,8 @@ header a{
 header li {
   float:left;
   display:inline;
-  padding: 0 20px 10px 20px;
+  padding: 0 20px 0 20px;
+  
 }
 
 header #branding{
@@ -78,7 +79,7 @@ header #branding h1{
 header nav{
   font: 15px/1.8, "Lato"; sans-serif;
   float:right;
-  margin-top:20px;
+  margin-top:10px;
 }
 
 .highlight, .current a{
