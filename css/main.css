@@ -2,24 +2,24 @@ body {
   font: 15px/1.8, "Lato"; sans-serif;
   line-hieght:1.5;
   color:#777;
-  margin: 60px auto;
-  width: 70%;
+  margin:60px auto;
+  width:70%;
   background-color: #ffffff;
 }
 
 .container{
-  width: 80%
-  margin: auto;
-  overflow: hidden;
+  width:80%
+  margin:auto;
+  overflow:hidden;
 }
 
 /* Global */
 .container{
-  max-width: 960px;
-  margin: 0 auto;
-  background: #fff;
-  font-size: 24px;
-  padding: 25px
+  max-width:960px;
+  margin:0 auto;
+  background:#fff;
+  font-size:24px;
+  padding:25px
   overflow-x: hid  
 }
 
@@ -28,12 +28,20 @@ ul{
  padding:0;
 }
 
+.light{
+  padding:15px;
+  background:#f5f1e9;
+  color:#555;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
 .button_1{
-  height: 38px;
-  background: #DEAC5F;
+  height:38px;
+  background:#DEAC5F;
   border: none;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left:20px;
+  padding-right:20px;
   color:#fff
 }
 
@@ -46,30 +54,30 @@ ul{
 
 /* Header **/
 header{
-  background:#fff
+  background:#fff;
   color:#777;
-  padding-top: 30px;
+  padding-top:30px;
   min-height:70px;
-  border-bottom: #DEAC5F 3px solid;
+  border-bottom:#DEAC5F 3px solid;
 }
 
 header a{
-  font: 15px/1.8, "Lato"; sans-serif;
+  font:15px/1.8, "Lato"; sans-serif;
   color:#777;
   text-decoration:none;
-  text-transform: uppercase;
-  font-size:12px;
+  text-transform:uppercase;
+  font-size:16px;
 }
 
 header li {
-  float:right;
+  float:left;
   display:inline;
   padding: 0 20px 0 20px;
   
 }
 
 header #branding{
-  float: left;
+  float:left;
 }
 
 header #branding h1{
@@ -77,7 +85,7 @@ header #branding h1{
 }
 
 header nav{
-  font: 15px/1.8, "Lato"; sans-serif;
+  font:15px/1.8, "Lato"; sans-serif;
   float:right;
   margin-top:20px;
 }
@@ -88,50 +96,49 @@ header nav{
 }
 
 header a:hover{
-  font: 15px/1.8, "Lato"; sans-serif;
+  font:15px/1.8, "Lato"; sans-serif;
   color:#DEAC5F;
-  font-weight: bold;
+  font-weight:bold;
   text-decoration: 
-  border bottom: 2px dotted;
+  border bottom:2px dotted;
 }
 
 
 /*Top Section*/
 #topsection{
-  min-height: 400px;
-  background-color: #E8E7E5;no repeat 0 -400px;
+  min-height:400px;
+  background-color:#E8E7E5;no repeat 0 -400px;
   text-align: center;
   color: #777;
 }
 
 #topsection img{
   float: left;
-  border-top: 10px;
-  border-left: 10px;
-  border-bottom: 10px;
+  border-top:10px;
+  border-left:10px;
+  border-bottom:10px;
   border-color: 
 }
 
 #showcase h1{
-  margin-top: 100px
-  font-size:55px;
-  margin-bottom:10px
+  margin-top:100px;
+  font-size:20px;
+  margin-bottom:10px;
 }
 
 #showcase p{
-  font-size: 15px;
+  font-size:15px;
 }
 
 /*Newsletter*/
 #newsletter{
-  padding: 15px;
+  padding:15px;
   color:#000;
   background:#f5f1e9;
 }
 
 #newsletter h1{
   float:left;
-  padding-left: 10px;
 }
 #newsletter form{
   float:right;
@@ -140,34 +147,34 @@ header a:hover{
 
 #newsletter input [type="email"]{
   padding:4px;
-  height: 25px;
+  height:25px;
   width:250px;
 }
 
 /*Blog Boxes*/
 #BlogBoxes{
-  margin-top: 250px
-  text:center;
+  margin-top:250px;
+  text-align:center;
 }
 
 #BlogBoxes .box1, .box2, .box3{
   float: left; center; right;
   text-align: center;
-  width: 30%;
-  padding:20px;
+  width:30%;
+  padding:10px;
 }
 
 #BlogBoxes .box1, .box2, .box3 img{
-  width: 90px;
-  height: auto;
+  width:90px;
+  height:auto;
 }
 
 /* Ingredients section */
 #ingredients h2{
-  border-top: #555 1px solid;
-  border-left: #555 1px solid;
-  border-right: #555 1px solid;
-  padding-left: 1em;
+  border-top:#555 1px solid;
+  border-left:#555 1px solid;
+  border-right:#555 1px solid;
+  padding-left:1em;
 }
 
 #ingredients table{
@@ -175,34 +182,48 @@ header a:hover{
 }
 
 #ingredients th{
-  font-size: 18px;
-  height: 10px;
+  font-size:18px;
+  height:10px;
 }
 
 #ingredients td{
-  font-size: 14px;
-  text-align: center;
-  padding: 1px;
+  font-size:14px;
+  text-align:center;
+  padding:1px;
 }
 #ingredients table, th, td{
-  border: #555 2px solid;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
+  border:#555 2px solid;
+  border-collapse:collapse;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 /* Preparation Section */
 #preperation
+
+/* sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
 
 
 h2 {
   font-family: 'Lato', sans-serif;
   
 footer {
-  padding: 20px;
+  padding:20px;
   margin-top:20px 
-  color: #e8e7e5;
-  background-color: #375452;
+  color:#e8e7e5;
+  background-color:#375452;
   text-align: center;
   font-family: 'Lato', sans-serif;
 }
