@@ -1,5 +1,5 @@
 body {
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font: 400 10px/1.8 "Lato", sans-serif;
   line-hieght:1.5;
   color:#777;
   margin:60px auto;
@@ -25,7 +25,7 @@ body {
 
 ul{
  margin:0;
- padding:10px;
+ padding:0;
 }
 
 .light{
@@ -63,7 +63,6 @@ header{
 }
 
 header a{
-  font:15px/1.8, "Lato"; sans-serif;
   color:#777;
   text-decoration:none;
   text-transform:uppercase;
@@ -86,7 +85,6 @@ header #branding h1{
 }
 
 header nav{
-  font:15px/1.8, "Lato"; sans-serif;
   float:right;
   margin-top:10px;
 }
@@ -97,10 +95,8 @@ header nav{
 }
 
 header a:hover{
-  font:15px/1.8, "Lato"; sans-serif;
   color:#DEAC5F;
   font-weight:bold;
-  text-decoration:
   border bottom:2px dotted;
 }
 
@@ -127,7 +123,8 @@ header a:hover{
 }
 
 #showcase p{
-  font-size:12px;
+  font-size:10px;
+  float:right;
 }
 
 /*Newsletter*/
@@ -147,7 +144,7 @@ header a:hover{
 
 #newsletter input [type="email"]{
   padding:4px;
-  height:20px;
+  height:15px;
   width:250px;
 }
 
