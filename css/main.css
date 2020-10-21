@@ -19,13 +19,13 @@ body {
   margin:0 auto;
   background:#fff;
   font-size:24px;
-  padding:25px
-  overflow-x: hid  
+  padding:25px;
+  overflow-x: hidden;
 }
 
 ul{
  margin:0;
- padding:0;
+ padding:10px;
 }
 
 .light{
@@ -42,7 +42,8 @@ ul{
   border: none;
   padding-left:20px;
   padding-right:20px;
-  color:#fff
+  color:#fff;
+  font: 15px/1.8, "Lato"; sans-serif;
 }
 
 .parallax {
@@ -99,10 +100,9 @@ header a:hover{
   font:15px/1.8, "Lato"; sans-serif;
   color:#DEAC5F;
   font-weight:bold;
-  text-decoration: 
+  text-decoration:
   border bottom:2px dotted;
 }
-
 
 /*Top Section*/
 #topsection{
@@ -121,7 +121,7 @@ header a:hover{
 }
 
 #showcase h1{
-  margin-top:100px;
+  margin-top:80px;
   font-size:20px;
   margin-bottom:10px;
 }
@@ -147,7 +147,7 @@ header a:hover{
 
 #newsletter input [type="email"]{
   padding:4px;
-  height:25px;
+  height:20px;
   width:250px;
 }
 
@@ -158,8 +158,8 @@ header a:hover{
 }
 
 #BlogBoxes .box1, .box2, .box3{
-  float: left; center; right;
-  text-align: center;
+  float:left; center; right;
+  text-align:left; center; right;
   width:30%;
   padding:10px;
 }
@@ -213,8 +213,6 @@ article#main-col{
   float:left;
   width:65%;
 }
-
-
 
 h2 {
   font-family: 'Lato', sans-serif;
