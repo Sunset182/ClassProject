@@ -1,5 +1,5 @@
 body {
-  font: 400 10px/1.8 "Lato", sans-serif;
+  font:10px/1.8 "Lato", sans-serif;
   line-hieght:1.5;
   color:#777;
   margin:60px auto;
@@ -155,7 +155,7 @@ header a:hover{
 }
 
 #BlogBoxes .box1{
-  float:center;
+  float:right;
   text-align:center;
   width:30%;
   padding:10px;
@@ -168,7 +168,7 @@ header a:hover{
 }
 
 #BlogBoxes .box3{
-  float:center;
+  float:left;
   text-align:center;
   width:30%;
   padding:10px;
@@ -227,6 +227,7 @@ article #main-col {
 h2 {
   font-family: 'Lato', sans-serif;
   
+/* Footer */  
 footer {
   padding:20px;
   margin-top:20px;
