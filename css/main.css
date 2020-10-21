@@ -8,7 +8,7 @@ body {
 }
 
 .container{
-  width:80%
+  width:80%;
   margin:auto;
   overflow:hidden;
 }
@@ -20,7 +20,7 @@ body {
   background:#fff;
   font-size:24px;
   padding:25px;
-  overflow-x: hidden;
+  overflow-x:hidden;
 }
 
 ul{
@@ -127,7 +127,7 @@ header a:hover{
 }
 
 #showcase p{
-  font-size:15px;
+  font-size:12px;
 }
 
 /*Newsletter*/
@@ -157,9 +157,22 @@ header a:hover{
   text-align:center;
 }
 
-#BlogBoxes .box1, .box2, .box3{
-  float:left; center; right;
-  text-align:left; center; right;
+#BlogBoxes .box1{
+  float:center;
+  text-align:center;
+  width:30%;
+  padding:10px;
+}
+#BlogBoxes .box2{
+  float:center;
+  text-align:center;
+  width:30%;
+  padding:10px;
+}
+
+#BlogBoxes .box3{
+  float:center;
+  text-align:center;
   width:30%;
   padding:10px;
 }
@@ -178,7 +191,7 @@ header a:hover{
 }
 
 #ingredients table{
-  width: 70%;
+  width:70%;
 }
 
 #ingredients th{
@@ -202,14 +215,14 @@ header a:hover{
 #preperation
 
 /* sidebar */
-aside#sidebar{
+aside #sidebar {
   float:right;
   width:30%;
   margin-top:10px;
 }
 
 /* Main-col */
-article#main-col{
+article #main-col {
   float:left;
   width:65%;
 }
@@ -219,7 +232,7 @@ h2 {
   
 footer {
   padding:20px;
-  margin-top:20px 
+  margin-top:20px;
   color:#e8e7e5;
   background-color:#375452;
   text-align: center;
