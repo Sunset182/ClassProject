@@ -18,14 +18,14 @@ body {
   max-width:960px;
   margin:0 auto;
   background:#fff;
-  font-size:24px;
+  font-size:15px;
   padding:25px;
   overflow-x:hidden;
 }
 
 ul{
- margin:0;
- padding:0;
+ margin:10px;
+ padding:10px;
 }
 
 .light{
@@ -58,7 +58,7 @@ header{
   background:#fff;
   color:#777;
   padding-top:30px;
-  min-height:70px;
+  min-height:30px;
   border-bottom:#DEAC5F 3px solid;
 }
 
@@ -97,7 +97,7 @@ header nav{
 header a:hover{
   color:#DEAC5F;
   font-weight:bold;
-  border bottom:2px dotted;
+  border bottom:5px dotted;
 }
 
 /*Top Section*/
