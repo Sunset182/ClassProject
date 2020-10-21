@@ -1,5 +1,5 @@
 body {
-  font: 15px/1.8, "Lato"; sans-serif;
+  font: 400 15px/1.8 "Lato", sans-serif;
   line-hieght:1.5;
   color:#777;
   margin:60px auto;
@@ -73,7 +73,7 @@ header a{
 header li {
   float:left;
   display:inline;
-  padding: 0 20px 0 20px;
+  padding: 20px 0 0 20px;
   
 }
 
