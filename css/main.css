@@ -85,8 +85,8 @@ header #branding h1{
 }
 
 header nav{
-  float:right;
-  margin-top:10px;
+  float:left;
+  margin-top:12px;
 }
 
 .highlight, .current a{
@@ -220,8 +220,8 @@ aside #sidebar {
 
 /* Main-col */
 article #main-col {
-  float:left;
-  width:65%;
+float:left;
+width:65%;
 }
 
 h2 {
@@ -229,6 +229,7 @@ h2 {
   
 /* Footer */  
 footer {
+  font:10px;
   padding:20px;
   margin-top:20px;
   color:#e8e7e5;
