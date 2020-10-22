@@ -18,7 +18,7 @@ body {
   max-width:960px;
   margin:0 auto;
   background:#fff;
-  font-size:18px;
+  font-size:15px;
   padding:25px;
   overflow-x:hidden;
 }
@@ -130,7 +130,7 @@ header a:hover{
 /*Newsletter*/
 #newsletter{
   padding:15px;
-  color:#000;
+  color:#777;
   background:#f5f1e9;
 }
 
@@ -151,7 +151,6 @@ header a:hover{
 /*Blog Boxes*/
 #BlogBoxes{
   margin-top:250px;
-  text-align:center;
 }
 
 #BlogBoxes .box1{
