@@ -1,5 +1,5 @@
 body {
-  font:10px/1.8 "Lato", sans-serif;
+  font:15px/1.8 "Lato", sans-serif;
   line-hieght:1.5;
   color:#777;
   margin:60px auto;
@@ -18,7 +18,7 @@ body {
   max-width:960px;
   margin:0 auto;
   background:#fff;
-  font-size:15px;
+  font-size:18px;
   padding:25px;
   overflow-x:hidden;
 }
@@ -72,7 +72,7 @@ header a{
 header li {
   float:left;
   display:inline;
-  padding: 10px 20px 0 20px;
+  padding: 10px 20px 0 5px;
   
 }
 
@@ -97,7 +97,7 @@ header nav{
 header a:hover{
   color:#DEAC5F;
   font-weight:bold;
-  border bottom:5px dotted;
+  border-bottom:5px dotted;
 }
 
 /*Top Section*/
