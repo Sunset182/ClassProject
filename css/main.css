@@ -382,6 +382,8 @@ aside#sidebar .email input, aside#sidebar .email textarea{
 
 h2 {
   font-family:sans-serif;
+  break-before:column;
+  -webkit-column-break-before:always;
 
 /* Media Queries */
   @media(max-width:768px){
