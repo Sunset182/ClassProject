@@ -50,6 +50,7 @@ body {
   padding-left:20px;
   padding-right:20px;
   color:#fff;
+  border-bottom:none;
 }
 
 .parallax{
@@ -215,6 +216,16 @@ header a:hover{
   width:90px;
   height:auto;
 }
+  
+ /* Categories */
+ #categories{
+  max-width:960px;
+  margin:0 auto;
+  background:#fff;
+  font-size:18px;
+  padding:25px;
+  overflow-x:hidden;
+  }
 
 /* Ingredients section */
 #ingredients h2{
