@@ -23,6 +23,7 @@ body {
  column-gap: 4em;
  background:#f5f1e9;
  font: 12px;1.8, cursive;
+ padding:
 }
 
 .div.col{
@@ -128,7 +129,7 @@ body {
 .fa:hover {
     opacity: 0.7;
 }
-/* Add a hover effect if you want */
+/* fa hover effect */
 .fa:hover {
   opacity: 0.7;
 }
@@ -261,6 +262,7 @@ header a:hover{
 /*Blog Boxes*/
 #BlogBoxes{
   margin-top:250px;
+  margin-bottom:250px;
   text-align:center;
   background-color:#f5f1e9;
 }
