@@ -42,9 +42,7 @@ ul{
   border: none;
   padding-left:20px;
   padding-right:20px;
-  padding-top:20px;
-  padding-bottom: 20px;
-  color:#fff
+  color:#fff;
 
 .parallax {
   background: url ('img/social-cover-a.png')no-repeat center;
@@ -57,7 +55,7 @@ ul{
 header{
   background:#fff;
   color:#777;
-  padding-top:20px;
+  padding-top:30px;
   min-height:30px;
   border-bottom:#DEAC5F 3px solid;
 }
@@ -86,7 +84,7 @@ header #branding h1{
 
 header nav{
   float:right;
-  margin-top:12px;
+  margin-top:20px;
 }
 
 .highlight, .current a{
@@ -97,7 +95,7 @@ header nav{
 header a:hover{
   color:#DEAC5F;
   font-weight:bold;
-  border-bottom:5px dotted;
+  border-bottom:3px dotted;
 }
 
 /*Top Section*/
@@ -113,7 +111,7 @@ header a:hover{
   border-top:10px;
   border-left:10px;
   border-bottom:10px;
-  border-color: 
+  border-color: none;
 }
 
 #showcase h1{
@@ -123,7 +121,7 @@ header a:hover{
 }
 
 #showcase p{
-  font-size:10px;
+  font-size:12px;
   float:right;
 }
 
@@ -144,33 +142,34 @@ header a:hover{
 
 #newsletter input [type="email"]{
   padding:4px;
-  height:10px;
+  height:25px;
   width:250px;
 }
 
 /*Blog Boxes*/
 #BlogBoxes{
   margin-top:250px;
+  text-align:center;
 }
 
 #BlogBoxes .box1{
   float:right;
   text-align:center;
   width:30%;
-  padding:10px;
+  padding:30px;
 }
 #BlogBoxes .box2{
   float:center;
   text-align:center;
   width:30%;
-  padding:10px;
+  padding:30px;
 }
 
 #BlogBoxes .box3{
   float:left;
   text-align:center;
   width:30%;
-  padding:10px;
+  padding:30px;
 }
 
 #BlogBoxes .box1, .box2, .box3 img{
@@ -211,14 +210,14 @@ header a:hover{
 #preperation
 
 /* sidebar */
-aside #sidebar {
+.aside #sidebar {
   float:right;
   width:30%;
   margin-top:10px;
 }
 
 /* Main-col */
-article #main-col {
+.article #main-col {
 float:left;
 width:65%;
 }
