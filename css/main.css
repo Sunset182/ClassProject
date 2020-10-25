@@ -258,20 +258,21 @@ header a:hover{
 
 /* Main-col */
 .article #main-col{
-  float:left;
+  float:right;
   width:65%;
+  background-color:#f5f1e9;
 }
 
 h2 {
   font-family: "Lato", sans-serif;
   
-footer {
+footer{
   padding:20px;
   margin-top:20px;
   color:#e8e7e5;
-  background-color:#375452;
-  text-align: center;
-  font-family: "Lato", sans-serif;
+  background:#375452;
+  text-align:center;
+  font-family:sans-serif;
 }
 
 /* Media Queries */
