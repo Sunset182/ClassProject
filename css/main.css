@@ -361,13 +361,10 @@ header a:hover{
 aside#sidebar{
   font-family:sans-serif;
   float:right;
+  padding-left:15px;
+  margin-right:20px;
   width:30%;
   margin-top:10px;
-}
-
-aside#sidebar .email input, aside#sidebar .email textarea{
-  width:90%;
-  padding:10px;
 }
 
 /* Main-col */
