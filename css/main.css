@@ -19,7 +19,7 @@ body {
 }
 
 .col{
- columns:3 250px;
+ columns:3 50px;
  column-gap: 4em;
  background:#f5f1e9;
  font: 12px;1.8, cursive;
@@ -29,10 +29,6 @@ body {
 .div.col{
   text-align:left;
   vertical-align:top;
-}
-
-.div col h2{
-  font: 12px;1.8, cursive;
 }
 
 #myBtn {
@@ -87,18 +83,15 @@ body {
   border-bottom:none;
 }
   .parallax { 
-  /* The image used */
   background-image: url(/img"social-cover-a.png");
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat-y;
   background-size: cover;
-    min-height: 100vh;
-    max-height: 200vh;
-    position: relative;
-    transform-style: flat;
+  min-height: 100vh;
+  max-height: 200vh;
+  position: relative;
+  transform-style: flat;
 }
 
 .connect{
