@@ -175,8 +175,36 @@ header a:hover{
   width:30%;	
   padding:20px;	
 }
+  #BlogBoxes .box4{	
+  float:left;	
+  text-align:center;
+  width:30%;	
+  padding:20px;	
+}
+  
+  #BlogBoxes .box5{	
+  float:left;	
+  text-align:center;
+  width:30%;	
+  padding:20px;	
+}
+  
+  #BlogBoxes .box6{	
+  float:left;	
+  text-align:center;
+  width:30%;	
+  padding:20px;	
+}
+  
+  #BlogBoxes .box7{	
+  float:left;	
+  text-align:center;
+  width:30%;	
+  padding:20px;	
+}
+  
 
-#BlogBoxes .box1, .box2, .box3 img{
+#BlogBoxes .box1, .box2, .box3, .box4, .box5, .box6, .box7 img{
   width:90px;
   height:auto;
 }
