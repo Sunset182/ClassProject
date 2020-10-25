@@ -15,6 +15,7 @@ body {
 
 /* Global */
 .container{
+   font: 15px/1.8, sans-serif;
   max-width:960px;
   margin:0 auto;
   background:#fff;
@@ -28,7 +29,6 @@ body {
  columns:300px;
  background:#f5f1e9;
  font: 12px;1.8, cursive;
-  
 }
 
 div.col{
@@ -36,7 +36,7 @@ div.col{
   vertical-align:top;
 }
 
-.div col{
+.div col h2{
   font: 12px;1.8, cursive;
 
 .ul{
@@ -87,7 +87,7 @@ div.col{
 
 /* Header **/
 header{
-  font:15px/1.8, "Lato"; sans-serif;
+  font:15px/1.8,sans-serif;
   background:#fff;
   color:#777;
   padding-top:30px;
