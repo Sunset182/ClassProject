@@ -25,7 +25,7 @@ body {
  font: 12px;1.8, cursive;
 }
 
-div.col{
+.div.col{
   text-align:left;
   vertical-align:top;
 }
@@ -43,7 +43,7 @@ div.col{
   font-size: 18px;
   border: none;
   outline: none;
-  background-color:#375452;
+  background-color:#DEAC5F;
   color:#fff;
   cursor: pointer;
   padding: 15px;
