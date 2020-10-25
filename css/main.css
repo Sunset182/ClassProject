@@ -52,12 +52,19 @@ body {
   color:#fff;
   border-bottom:none;
 }
+  .parallax { 
+  /* The image used */
+  background-image: url("social-cover-a.png");
 
-.parallax{
-  background: url ('img/social-cover-a.png')no-repeat center;
-  background-size: cover;
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  height: 500px;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+    min-height: 100vh;
+    max-height: 200vh;
+    position: relative;
+    transform-style: flat;
 }
 
 /* Header **/
