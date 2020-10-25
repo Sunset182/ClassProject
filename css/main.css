@@ -7,15 +7,9 @@ body {
   background-color: #ffffff;
 }
 
-.container{
-  width:80%;
-  margin:auto;
-  overflow:hidden;
-}
-
 /* Global */
 .container{
-   font: 15px/1.8, sans-serif;
+  font: 15px/1.8, sans-serif;
   max-width:960px;
   margin:0 auto;
   background:#fff;
