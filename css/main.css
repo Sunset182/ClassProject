@@ -26,6 +26,7 @@ body {
 .col{
  columns:3;
  columns:300px;
+ background:#f5f1e9;
 }
 
 div.col{
