@@ -367,7 +367,7 @@ aside#sidebar{
   float:right;
   width:65%;
   background-color:#f5f1e9;
-}
+  }
 
 h2 {
   font-family:sans-serif;
@@ -384,8 +384,8 @@ h2 {
     #boxes blogboxes,
     article #main-col,
     aside #sidebar{
-      float:none;
-      text-align:center;
+    float:none;
+    text-align:center;
       width:100%;
     }
     
