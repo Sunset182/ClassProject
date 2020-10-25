@@ -23,6 +23,16 @@ body {
   overflow-x:hidden;  
 }
 
+.col{
+ columns:3;
+ columns:300px;
+}
+
+div.col{
+  text-align:left;
+  vertical-align:top;
+}
+
 .ul{
  font:sans-serif;
  margin:10px;
