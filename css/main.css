@@ -19,15 +19,16 @@ body {
 }
 
 .col{
- columns:3 50px;
+ columns:2 50px;
  column-gap: 4em;
  background:#f5f1e9;
  font: 12px;1.8, cursive;
  padding:20px;
+ margin-bottom:20px;
 }
 
 .div.col{
-  text-align:left;
+  text-align:center;
   vertical-align:top;
 }
 
@@ -82,7 +83,8 @@ body {
   color:#fff;
   border-bottom:none;
 }
-  .parallax { 
+
+.parallax { 
   background-image: url(/img"social-cover-a.png");
   background-attachment: fixed;
   background-position: center;
