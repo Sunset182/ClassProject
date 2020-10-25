@@ -381,7 +381,7 @@ aside#sidebar .email input, aside#sidebar .email textarea{
 }
 
 h2 {
-  font-family: "Lato", sans-serif;
+  font-family:sans-serif;
 
 /* Media Queries */
   @media(max-width:768px){
