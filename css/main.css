@@ -42,9 +42,9 @@ ul{
   border: none;
   padding-left:20px;
   padding-right:20px;
-  color:#fff;
-  font: 15px/1.8, "Lato"; sans-serif;
-}
+  padding-top:20px;
+  padding-bottom: 20px;
+  color:#fff
 
 .parallax {
   background: url ('img/social-cover-a.png')no-repeat center;
@@ -57,7 +57,7 @@ ul{
 header{
   background:#fff;
   color:#777;
-  padding-top:30px;
+  padding-top:20px;
   min-height:30px;
   border-bottom:#DEAC5F 3px solid;
 }
@@ -144,7 +144,7 @@ header a:hover{
 
 #newsletter input [type="email"]{
   padding:4px;
-  height:15px;
+  height:10px;
   width:250px;
 }
 
