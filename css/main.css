@@ -46,7 +46,7 @@ div.col{
 }
 
 .light{
-  float:right;
+  float:left;
   padding:15px;
   background:#f5f1e9;
   color:#555;
@@ -103,7 +103,7 @@ header a{
 }
 
 header li {
-  float:left;
+  float:right;
   display:inline;
   padding: 10px 20px 0 20px;
   
@@ -139,12 +139,12 @@ header a:hover{
 #topsection{
   min-height:400px;
   background-color:#E8E7E5;no repeat 0 -400px;
-  text-align: center;
-  color: #777;
+  text-align:center;
+  color:#777;
 }
 
 #topsection img{
-  float: left;
+  float:left;
   border-top:30px;
   border-left:30px;
   border-bottom:30px;
@@ -247,7 +247,7 @@ header a:hover{
  #categories{
   max-width:960px;
   margin:0 auto;
-  background:#fff;
+  background-color:#f5f1e9;
   font-size:18px;
   padding:25px;
   overflow-x:hidden;
