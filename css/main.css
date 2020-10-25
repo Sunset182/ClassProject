@@ -262,7 +262,7 @@ header a:hover{
 #BlogBoxes .box1{
   float:right;
   text-align:center;
-   width:30%;
+  width:30%;
   padding:20px;
   
   #BlogBoxes .box2{	
@@ -355,11 +355,16 @@ header a:hover{
 /* Preparation Section */
 #preperation
 
-/* sidebar */
-.aside #sidebar{
+/* Sidebar */
+aside#sidebar{
   float:right;
   width:30%;
   margin-top:10px;
+}
+
+aside#sidebar .email input, aside#sidebar .email textarea{
+  width:90%;
+  padding:5px;
 }
 
 /* Main-col */
