@@ -18,9 +18,9 @@ body {
   max-width:960px;
   margin:0 auto;
   background:#fff;
-  font-size:24px;
+  font-size:18px;
   padding:25px;
-  overflow-x: hidden;  
+  overflow-x:hidden;  
 }
 
 ul{
@@ -140,11 +140,11 @@ header a:hover{
 }
 #newsletter form{
   float:right;
-  margin-top:15px;
+  margin-top:12px;
 }
 
 #newsletter input [type="email"]{
-  padding:4px;
+  padding:10px;
   height:15px;
   width:250px;
 }
@@ -153,6 +153,7 @@ header a:hover{
 #BlogBoxes{
   margin-top:250px;
   text-align:center;
+  background-color:#f5f1e9
 }
 
 #BlogBoxes .box1{
@@ -202,6 +203,7 @@ header a:hover{
   text-align:center;
   padding:1px;
 }
+  
 #ingredients table, th, td{
   border:#555 2px solid;
   border-collapse:collapse;
