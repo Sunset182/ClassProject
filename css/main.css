@@ -100,6 +100,18 @@ div.col{
     transform-style: flat;
 }
 
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#e8e7e5;
+  background:#375452;
+  text-align:center;
+  font-family:sans-serif;
+  position:fixed;
+  left:0px; bottom:0px; right:0px;
+}
+  
+
 /* Header **/
 header{
   font:15px/1.8,sans-serif;
@@ -317,15 +329,6 @@ header a:hover{
 
 h2 {
   font-family: "Lato", sans-serif;
-  
-footer{
-  padding:20px;
-  margin-top:20px;
-  color:#e8e7e5;
-  background:#375452;
-  text-align:center;
-  font-family:sans-serif;
-}
 
 /* Media Queries */
   @media(max-width:768px){
