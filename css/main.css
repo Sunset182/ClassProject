@@ -85,7 +85,7 @@ body {
 }
 
 .parallax { 
-  background-image: url(/img"social-cover-a.png");
+  background-image: url("social-cover-a.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat-y;
