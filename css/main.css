@@ -255,16 +255,12 @@ header a:hover{
 /*Blog Boxes*/
 #BlogBoxes{
   margin-top:20px;
-  margin-bottom:100px;
-  text-align:center;
-  background-color:#f5f1e9;
-  padding:20px;	
 }
 
 #BlogBoxes .box1{
   float:left;
   text-align:center;
-  width:30%;
+  width:20%;
   padding:10px;
   
   #BlogBoxes .box2{	
