@@ -272,14 +272,14 @@ header a:hover{
   padding:20px;
   
   #BlogBoxes .box2{	
-  float:center;	
+  float:right;	
   text-align:center;	
   width:30%;	
   padding:20px;	
 }	
 
 #BlogBoxes .box3{	
-  float:left;	
+  float:right;	
   text-align:center;
   width:30%;	
   padding:20px;	
@@ -316,6 +316,7 @@ header a:hover{
 #BlogBoxes .box1, .box2, .box3, .box4, .box5, .box6, .box7 img{
   width:90px;
   height:auto;
+  margin:5px;
 }
   
  /* Categories */
