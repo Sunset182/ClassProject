@@ -20,7 +20,7 @@ body {
 
 .col{
  columns:2 45px;
- column-gap: 4em;
+ column-gap: 2em;
  background:#f5f1e9;
  font: 12px;1.8;sans-serif;
  padding:20px;
@@ -256,7 +256,7 @@ header a:hover{
 /*Blog Boxes*/
 #BlogBoxes{
   margin-top:100px;
-  margin-bottom:1000px;
+  margin-bottom:100px;
   text-align:center;
   background-color:#f5f1e9;
   padding:20px;	
